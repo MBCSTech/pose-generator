@@ -26,22 +26,13 @@ body {
     margin-bottom: 20px;
 }
 
-#instructions,
-.emoji {
-    align-self: flex-start;
-}
-
 .thanks {
     font-weight: 400 !important;
 }
 
-#instructions p {
-    text-align: start !important;
-
-}
 
 #instructions ul {
-    padding: 0 0 0 3rem;
+    padding: 0 0 0 2rem;
 }
 
 #app h1,
