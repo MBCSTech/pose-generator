@@ -26,12 +26,29 @@ body {
     margin-bottom: 20px;
 }
 
+#instructions,
+.emoji {
+    align-self: flex-start;
+}
+
+.thanks{
+    font-weight: 400 !important;
+}
+
+#instructions p {
+    text-align: start !important;
+}
+
+#instructions ul {
+    padding: 0 4rem;
+}
+
 #app h1,
 #app p {
     text-align: center;
 }
 
-#app p{
+#app p {
     padding: 0px 2rem;
 }
 
@@ -100,15 +117,15 @@ button:hover {
 }
 
 @media screen and (max-width: 600px) {
-    #app h1{
+    #app h1 {
         font-size: 1.5rem;
     }
-    
+
 }
 
 @media screen and (min-width: 1025px) {
-    #header img{
+    #header img {
         width: 40%;
     }
-    
+
 }
