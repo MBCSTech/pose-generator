@@ -31,16 +31,17 @@ body {
     align-self: flex-start;
 }
 
-.thanks{
+.thanks {
     font-weight: 400 !important;
 }
 
 #instructions p {
     text-align: start !important;
+
 }
 
 #instructions ul {
-    padding: 0 4rem;
+    padding: 0 0 0 3rem;
 }
 
 #app h1,
@@ -49,7 +50,7 @@ body {
 }
 
 #app p {
-    padding: 0px 2rem;
+    padding: 0px 1rem;
 }
 
 #instagramButton {
@@ -121,11 +122,20 @@ button:hover {
         font-size: 1.5rem;
     }
 
+
 }
 
 @media screen and (min-width: 1025px) {
     #header img {
         width: 40%;
+    }
+
+    #app p {
+        padding: 0px 2rem;
+    }
+
+    #instructions ul {
+        padding: 0 4rem;
     }
 
 }
