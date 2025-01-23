@@ -18,11 +18,21 @@ body {
     max-width: 800px;
     margin: auto;
     /* text-align: center; */
-    background: #ff5757;
+    background: #9c182f;
+    color: #d9d9d9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+}
+
+#app h1,
+#app p {
+    text-align: center;
+}
+
+#app p{
+    padding: 0px 2rem;
 }
 
 #instagramButton {
@@ -45,8 +55,8 @@ ol {
     padding: 0 2rem;
 }
 
-ol li {
-    font-weight: 600;
+#app p {
+    font-weight: 500;
 }
 
 #placeholderText {
@@ -87,4 +97,11 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+@media screen and (min-width: 1025px) {
+    #header img{
+        width: 40%;
+    }
+    
 }
